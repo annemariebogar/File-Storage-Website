@@ -1,0 +1,24 @@
+<HTML>
+<!-- this is a comment 
+  -- it is visible in the source code, like if you "view source"
+  -- but it is NOT going to be rendered.
+  -- it begins with < and then !-- 
+  -- and ends with -->
+	<HEAD>
+		<TITLE>
+Web Programming Final
+		</TITLE>
+	</HEAD>
+	<BODY>
+		Click here if you would like to sign in via Google: 
+		<a class="login" href="index2.php"><img src="g-login-button.png" /></a>
+		<!--<a class="login" href="index2.php"><img src="g-login-button.png" /></a>-->
+		<p>Or, if you like to sign in with your username and password, login below.</p>
+		<form action="login.php" method="POST">
+			Please enter your <b>username</b>: <input type="text" name="username" />
+			<br>
+			Please enter your <b>password</b>: <input type="password" name="password" />
+		<input type=submit name=login_button/>
+		</form>
+	</BODY>
+</HTML>
